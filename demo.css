@@ -1,0 +1,101 @@
+*{
+    font-size: small;
+    font-family: 'Roboto';
+}
+body{
+    background-color: aquamarine;
+}
+.p{
+    margin-top: -12px;
+}
+.p10{
+    margin-top: -8px;
+}
+.colour1{
+    color: #012E57;
+}
+.flarge{
+    font-size:large;
+}
+hr{
+    height: 1px;
+    width: 360px;
+    background-color: #aeacac;
+    border: none;
+}
+.f600{
+    font-weight: 600;
+}
+.f550{
+    font-weight: 550;
+}
+.container {
+    border-radius: 20px;
+    width:360px;
+    background-color: aquamarine;
+    height: 780px;
+    background-color: white;
+    padding: 5px;
+}
+.header{
+    border-radius: 20px 20px 0px 0px;
+    background-color: #002647;
+    height: 20px;
+}
+.title{
+    padding: 5px;
+}
+.con1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.con1 img{
+    margin-right: 5px;
+}
+.con2{
+    z-index: 1;
+    width: 310px;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    background-color: #002647;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 10px 10px 5px #bcbcbc;
+}
+.con2 p{
+    font-size: large;
+}
+.label{
+    width: 45%;
+    color: #aeacac;
+}
+.progress{
+    position: relative;
+    left: 30px;
+    margin: 4px;
+    text-align: center;
+}
+.progress span{
+    position: relative;
+    font-size: xx-large;
+    left: -60px;
+    top: -20px;
+}
+.barOverflow{ 
+    /* position: relative; */
+    width: 180px; height: 90px; 
+    margin-bottom: -14px;
+    overflow: hidden;
+}
+.bar{
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 15px solid #d9d9d9;
+    border-bottom-color: #fcb000;
+    border-left-color: #fcb000; 
+}
+
